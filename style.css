@@ -136,10 +136,12 @@ section {
 
 .intro p {
   margin: 0 0 18px;
-  font-size: 18px;
+  font-size: 20px;
+  text-align: justify;
 } 
 
-.use {
+.use,
+.hobbies {
   padding-top: 18px;
 }
 
@@ -241,6 +243,10 @@ section {
 
 .blender {
   margin-top: 20px;
+}
+
+.ability {
+  font-size: 20px;
 }
 
 .page-footer {
