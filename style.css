@@ -1,0 +1,268 @@
+body {
+  margin: 0;
+  min-width: 960px;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  color: #222222;
+  background-color: #f2f4f6;
+}
+
+section {
+  min-height: 100vh;
+}
+
+.container {
+  align-content: space-between;
+  justify-content: center;
+  max-width: 928px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.page-header .container,
+.page-footer .container {
+  max-width: 1170px;
+  text-align: right;
+}
+
+.page-header {
+  padding: 40px 0;
+}
+
+.page-header a {
+  margin-left: 56px;
+  color: #094379;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.hero-image {
+  position: relative;
+  background-image: url("img/bg-2.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.hero-image .container a {
+  max-width: 1170px;
+  text-align: right;
+}
+
+.header-email {
+  padding-left: 30px;
+  background-image: url("img/icon-email-header-2.svg");
+}
+
+.header-phone {
+  padding-left: 25px;
+  background-image: url("img/icon-phone-header-2.svg");
+}
+
+.main-heading {
+  position: absolute;
+  right: 25vw;
+  left: 25vw;
+  top: 40vh;
+
+  /*display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;*/
+}
+
+.heading, .heading p {
+  margin: 50px 0 16px;
+  /* padding-top: 25%; */
+  text-align: center;
+  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+  font-size: 88px;
+  line-height: 96px;
+  font-weight: 400;
+}
+
+.heading {
+  margin-top: auto;
+}
+
+.heading p {
+  margin-bottom: auto;
+}
+
+.hero-image p {
+  text-align: center;
+  margin: 0;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.intro {
+  margin: 0 0 50px;
+}
+
+.subheading {
+  margin: 56px 0 56px;
+  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.intro figure img {
+  max-width: 100%;
+}
+
+.intro figure img {
+  width: 100%;
+  height: auto;
+}
+
+.user-image {
+  margin: 0 0 32px;
+  text-align: center;
+}
+
+.intro h3,
+.portfolio h3 {
+  margin: 20px 0 12px;
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.intro p {
+  margin: 0 0 18px;
+  font-size: 18px;
+} 
+
+.use {
+  padding-top: 18px;
+}
+
+.amount {
+  line-height: 14px;
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.skills dd {
+  /* margin: 0; */
+  margin-bottom: 10px;
+/*  background-color: #e8e8e8; */
+}
+
+.skills dt {
+  padding-left: 32px;
+  font-size: 18px;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.skill-html {
+  background-image: url("img/icon-html.svg");
+}
+
+.skill-css {
+  background-image: url("img/icon-css.svg");
+}
+
+.skill-js {
+  background-image: url("img/icon-javascript.svg");
+}
+
+.skill-blendr {
+  background-image: url("img/icon-blendr.svg");
+}
+
+.skill-en {
+  background-image: url("img/icon-en.svg");
+}
+
+.level {
+  margin: 4px 0 16px;
+  padding: 0;
+  height: 16px;
+  background-color: #ffffff;
+  border: 1px solid #86c3fa;
+  border-radius: 8px;
+}
+
+.skills-level {
+  margin: 1px;
+  height: 14px;
+  background-color: #288be6;
+  border-radius: 6px;
+  /*background-color: #4470c4; */
+}
+
+.skills-level-ok {
+  background-color: #47bb52;
+}
+
+.portfolio {
+  margin: 0 0 120px;
+}
+
+.web-projects,
+.blender-projects {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.web-projects li {
+  margin: 0 0 60px;
+}
+
+.project-image {
+  margin: 0 0 24px;
+  text-align: center;
+}
+
+.projects p {
+  margin: 0 0 24px;
+}
+
+.button {
+  padding: 6px 20px;
+  display: inline-block;
+  vertical-align: baseline;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background-color: #288be6;
+  color: #ffffff;
+}
+
+.blender {
+  margin-top: 20px;
+}
+
+.page-footer {
+  padding: 40px 0;
+  background-color: #00417d;
+  color: #ffffff;
+}
+
+.page-footer a {
+  margin-left: 56px;
+  color: inherit;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.footer-email {
+  padding-left: 30px;
+  background-image: url("img/icon-email-footer.svg");
+}
+
+.footer-phone {
+  padding-left: 25px;
+  background-image: url("img/icon-phone-footer.svg");
+}
