@@ -165,25 +165,28 @@ section {
   background-position: left;
 }
 
-.skill-html {
-  background-image: url("img/icon-html.svg");
-}
-
-.skill-css {
-  background-image: url("img/icon-css.svg");
-}
-
-.skill-js {
-  background-image: url("img/icon-javascript.svg");
+.skill-en {
+  background-image: url("img/icon-en.svg");
 }
 
 .skill-blendr {
   background-image: url("img/icon-blendr.svg");
 }
 
-.skill-en {
-  background-image: url("img/icon-en.svg");
+.skill-unity {
+  background-image: url("img/icon-unity.svg");
 }
+
+.skill-ac {
+  background-image: url("img/icon-ac.svg");
+}
+
+.skill-hand {
+  background-image: url("img/icon-hand.svg");
+}
+
+
+
 
 .level {
   margin: 4px 0 16px;
